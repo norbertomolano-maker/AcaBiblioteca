@@ -66,7 +66,6 @@
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(284, 603);
             pnlMenu.TabIndex = 0;
-            
             // 
             // btnSalir
             // 
@@ -89,6 +88,7 @@
             btnSalir.TextAlign = ContentAlignment.MiddleLeft;
             btnSalir.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += btnSalir_Click;
             // 
             // btnReportes
             // 
@@ -111,6 +111,7 @@
             btnReportes.TextAlign = ContentAlignment.MiddleLeft;
             btnReportes.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnReportes.UseVisualStyleBackColor = false;
+            btnReportes.Click += btnReportes_Click;
             // 
             // btnPrestamos
             // 
@@ -133,6 +134,7 @@
             btnPrestamos.TextAlign = ContentAlignment.MiddleLeft;
             btnPrestamos.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnPrestamos.UseVisualStyleBackColor = false;
+            btnPrestamos.Click += btnPrestamos_Click;
             // 
             // btnEditoriales
             // 
@@ -155,7 +157,7 @@
             btnEditoriales.TextAlign = ContentAlignment.MiddleLeft;
             btnEditoriales.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnEditoriales.UseVisualStyleBackColor = false;
-            
+            btnEditoriales.Click += btnEditoriales_Click;
             // 
             // btnAutores
             // 
@@ -178,7 +180,7 @@
             btnAutores.TextAlign = ContentAlignment.MiddleLeft;
             btnAutores.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnAutores.UseVisualStyleBackColor = false;
-            
+            btnAutores.Click += btnAutores_Click;
             // 
             // btnUsuarios
             // 
@@ -201,6 +203,7 @@
             btnUsuarios.TextAlign = ContentAlignment.MiddleLeft;
             btnUsuarios.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnUsuarios.UseVisualStyleBackColor = false;
+            btnUsuarios.Click += btnUsuarios_Click;
             // 
             // btnLibros
             // 
@@ -223,6 +226,7 @@
             btnLibros.TextAlign = ContentAlignment.MiddleLeft;
             btnLibros.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnLibros.UseVisualStyleBackColor = false;
+            btnLibros.Click += btnLibros_Click;
             // 
             // btnInicio
             // 
@@ -245,7 +249,7 @@
             btnInicio.TextAlign = ContentAlignment.MiddleLeft;
             btnInicio.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnInicio.UseVisualStyleBackColor = false;
-            
+            btnInicio.Click += btnInicio_Click;
             // 
             // pnlLogo
             // 
@@ -270,7 +274,6 @@
             picLogo.SizeMode = PictureBoxSizeMode.Zoom;
             picLogo.TabIndex = 2;
             picLogo.TabStop = false;
-            
             // 
             // lblSubtitulo
             // 
@@ -295,7 +298,6 @@
             lblTitulo.Size = new Size(166, 35);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "BIBLIOTECA";
-            
             // 
             // pnlSuperior
             // 
