@@ -184,6 +184,7 @@ El proyecto se organiza en una arquitectura por capas:
 4. **Capa de Base de Datos:** Motor SQL Server.
 
 ![Estructura del Proyecto en Visual Studio](IMAGENES/Visual%20Studio/0.png)
+
 ![Código del Formulario Principal](IMAGENES/Visual%20Studio/1.png)
 
 # 10. EXPLICACIÓN DE LOS MÓDULOS DESARROLLADOS
