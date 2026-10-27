@@ -6,7 +6,7 @@
 
 **INGENIERÍA DE SISTEMAS / PROGRAMACIÓN AVANZADA**
 
-### ACA 3 -- Programación Avanzada
+### ACA -- Programación Avanzada
 
 ### Sistema de Gestión de Biblioteca
 
@@ -155,6 +155,9 @@ Se definieron entidades como `Libro`, `Autor`, `Categoria`, `Usuario` y `Prestam
 
 # 7. MODELO ENTIDAD-RELACIÓN
 
+![Diagrama Relacional SQL Server](IMAGENES/SQLServer/2.png)
+![Tabla de Libros SQL Server](IMAGENES/SQLServer/3.png)
+
 Estructura relacional en SQL Server enlazando tablas de Autores, Categorías, Libros, Usuarios y Préstamos mediante llaves primarias y foráneas que garantizan integridad referencial.
 
 # 8. DICCIONARIO DE DATOS
@@ -179,6 +182,9 @@ El proyecto se organiza en una arquitectura por capas:
 3. **Capa de Acceso a Datos:** Objetos de acceso a datos (DAO) e hilos de conexión SQL Server.
 
 4. **Capa de Base de Datos:** Motor SQL Server.
+
+![Estructura del Proyecto en Visual Studio](IMAGENES/Visual%20Studio/0.png)
+![Código del Formulario Principal](IMAGENES/Visual%20Studio/1.png)
 
 # 10. EXPLICACIÓN DE LOS MÓDULOS DESARROLLADOS
 
@@ -208,6 +214,9 @@ En esta sección se presentan las evidencias de la interfaz gráfica desarrollad
 | ----- | ----- | ----- | ----- | ----- | 
 | CP01 | Registrar Libro | Ingresar ISBN y datos completos | Libro registrado e inventario actualizado | Aprobado | 
 | CP02 | Búsqueda por ISBN | Ingresar ISBN en FrmLibros | Desplegar información en campos correspondientes | Aprobado | 
+
+### Evidencia de Pruebas
+![Prueba Registro Exitoso](IMAGENES/Visual%20Studio/2.png)
 
 # 13. CONCLUSIONES
 
