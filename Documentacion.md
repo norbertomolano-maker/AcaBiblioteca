@@ -6,7 +6,7 @@
 
 **INGENIERÍA DE SISTEMAS / PROGRAMACIÓN AVANZADA**
 
-### ACA 3 -- Programación Avanzada
+### ACA -- Programación Avanzada
 
 ### Sistema de Gestión de Biblioteca
 
