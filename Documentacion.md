@@ -183,9 +183,9 @@ El proyecto se organiza en una arquitectura por capas:
 
 4. **Capa de Base de Datos:** Motor SQL Server.
 
-![Estructura del Proyecto](IMAGENES/Visual_Studio/0.png)
+![Estructura del Proyecto](Temp_Imagenes/Visual_Studio/0.png)
 
-![Código Formulario](IMAGENES/Visual_Studio/1.png)
+![Código Formulario](Temp_Imagenes/Visual_Studio/1.png)
 # 10. EXPLICACIÓN DE LOS MÓDULOS DESARROLLADOS
 
 * **Módulo de Menú Principal (FrmPrincipal):** Contenedor dinámico con menú lateral para navegar entre pantallas.
@@ -198,13 +198,13 @@ En esta sección se presentan las evidencias de la interfaz gráfica desarrollad
 
 ## 11.1 Menú Principal (FrmPrincipal)
 
-![Menú Principal del Sistema](IMAGENES/Funcionando_El_Software_Visual_Studio/funcion%201.png)
+![Menú Principal del Sistema](Temp_Imagenes/Funcionando_El_Software_Visual_Studio/funcion%201.png)
 
 **Descripción:** Pantalla principal del sistema `AcaBiblioteca` diseñada bajo un modelo de contenedor dinámico. En la parte izquierda cuenta con un menú de navegación estilizado con botones para acceder a los distintos módulos (Inicio, Libros, Usuarios, Autores, Editoriales, Préstamos, Reportes y Salir). Al presionar cada botón, el formulario correspondiente se carga dinámicamente en el panel central `pnlContenido`.
 
 ## 11.2 Módulo de Gestión de Libros (FrmLibros)
 
-![Módulo de Gestión de Libros](IMAGENES/Funcionando_El_Software_Visual_Studio/funcion2.png)
+![Módulo de Gestión de Libros](Temp_Imagenes/Funcionando_El_Software_Visual_Studio/funcion2.png)
 
 **Descripción:** Interfaz del subformulario `FrmLibros` desplegada dentro del panel contenedor `pnlContenido`. Incluye los controles para la búsqueda por ISBN (caja de texto y botón `Buscar`), así como los campos para la captura y edición de información de los libros: ISBN, Título, Autor (`ComboBox`), Editorial (`ComboBox`), Categoría, Año y Existencias.
 
@@ -216,7 +216,8 @@ En esta sección se presentan las evidencias de la interfaz gráfica desarrollad
 | CP02 | Búsqueda por ISBN | Ingresar ISBN en FrmLibros | Desplegar información en campos correspondientes | Aprobado | 
 
 ### Evidencia de Pruebas
-![Prueba Registro Exitoso](IMAGENES/Visual%20Studio/2.png)
+
+![Prueba Registro Exitoso](Temp_Imagenes/Visual_Studio/2.png)
 
 # 13. CONCLUSIONES
 
