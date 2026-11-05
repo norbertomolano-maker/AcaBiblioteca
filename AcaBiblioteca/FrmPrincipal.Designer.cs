@@ -66,20 +66,23 @@
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(284, 603);
             pnlMenu.TabIndex = 0;
+            pnlMenu.Paint += pnlMenu_Paint;
             // 
             // btnSalir
             // 
             btnSalir.AutoSize = true;
             btnSalir.BackColor = Color.White;
+            btnSalir.Cursor = Cursors.Hand;
             btnSalir.DialogResult = DialogResult.Retry;
             btnSalir.Dock = DockStyle.Top;
             btnSalir.FlatAppearance.BorderSize = 0;
+            btnSalir.FlatStyle = FlatStyle.Flat;
             btnSalir.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSalir.IconChar = FontAwesome.Sharp.IconChar.Close;
             btnSalir.IconColor = Color.Black;
             btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnSalir.IconSize = 30;
-            btnSalir.Location = new Point(0, 395);
+            btnSalir.Location = new Point(0, 398);
             btnSalir.Margin = new Padding(0, 10, 0, 10);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(284, 45);
@@ -94,15 +97,17 @@
             // 
             btnReportes.AutoSize = true;
             btnReportes.BackColor = Color.White;
+            btnReportes.Cursor = Cursors.Hand;
             btnReportes.DialogResult = DialogResult.Retry;
             btnReportes.Dock = DockStyle.Top;
             btnReportes.FlatAppearance.BorderSize = 0;
+            btnReportes.FlatStyle = FlatStyle.Flat;
             btnReportes.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnReportes.IconChar = FontAwesome.Sharp.IconChar.BookAtlas;
             btnReportes.IconColor = Color.Black;
             btnReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnReportes.IconSize = 30;
-            btnReportes.Location = new Point(0, 350);
+            btnReportes.Location = new Point(0, 353);
             btnReportes.Margin = new Padding(0, 10, 0, 10);
             btnReportes.Name = "btnReportes";
             btnReportes.Size = new Size(284, 45);
@@ -117,15 +122,17 @@
             // 
             btnPrestamos.AutoSize = true;
             btnPrestamos.BackColor = Color.White;
+            btnPrestamos.Cursor = Cursors.Hand;
             btnPrestamos.DialogResult = DialogResult.Retry;
             btnPrestamos.Dock = DockStyle.Top;
             btnPrestamos.FlatAppearance.BorderSize = 0;
+            btnPrestamos.FlatStyle = FlatStyle.Flat;
             btnPrestamos.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPrestamos.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
             btnPrestamos.IconColor = Color.Black;
             btnPrestamos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnPrestamos.IconSize = 30;
-            btnPrestamos.Location = new Point(0, 305);
+            btnPrestamos.Location = new Point(0, 308);
             btnPrestamos.Margin = new Padding(0, 10, 0, 10);
             btnPrestamos.Name = "btnPrestamos";
             btnPrestamos.Size = new Size(284, 45);
@@ -140,15 +147,17 @@
             // 
             btnEditoriales.AutoSize = true;
             btnEditoriales.BackColor = Color.White;
+            btnEditoriales.Cursor = Cursors.Hand;
             btnEditoriales.DialogResult = DialogResult.Retry;
             btnEditoriales.Dock = DockStyle.Top;
             btnEditoriales.FlatAppearance.BorderSize = 0;
+            btnEditoriales.FlatStyle = FlatStyle.Flat;
             btnEditoriales.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEditoriales.IconChar = FontAwesome.Sharp.IconChar.Bookmark;
             btnEditoriales.IconColor = Color.Black;
             btnEditoriales.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnEditoriales.IconSize = 30;
-            btnEditoriales.Location = new Point(0, 260);
+            btnEditoriales.Location = new Point(0, 263);
             btnEditoriales.Margin = new Padding(0, 10, 0, 10);
             btnEditoriales.Name = "btnEditoriales";
             btnEditoriales.Size = new Size(284, 45);
@@ -163,15 +172,17 @@
             // 
             btnAutores.AutoSize = true;
             btnAutores.BackColor = Color.White;
+            btnAutores.Cursor = Cursors.Hand;
             btnAutores.DialogResult = DialogResult.Retry;
             btnAutores.Dock = DockStyle.Top;
             btnAutores.FlatAppearance.BorderSize = 0;
+            btnAutores.FlatStyle = FlatStyle.Flat;
             btnAutores.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAutores.IconChar = FontAwesome.Sharp.IconChar.BookReader;
             btnAutores.IconColor = Color.Black;
             btnAutores.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnAutores.IconSize = 30;
-            btnAutores.Location = new Point(0, 215);
+            btnAutores.Location = new Point(0, 218);
             btnAutores.Margin = new Padding(0, 10, 0, 10);
             btnAutores.Name = "btnAutores";
             btnAutores.Size = new Size(284, 45);
@@ -186,15 +197,17 @@
             // 
             btnUsuarios.AutoSize = true;
             btnUsuarios.BackColor = Color.White;
+            btnUsuarios.Cursor = Cursors.Hand;
             btnUsuarios.DialogResult = DialogResult.Retry;
             btnUsuarios.Dock = DockStyle.Top;
             btnUsuarios.FlatAppearance.BorderSize = 0;
+            btnUsuarios.FlatStyle = FlatStyle.Flat;
             btnUsuarios.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnUsuarios.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup;
             btnUsuarios.IconColor = Color.Black;
             btnUsuarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnUsuarios.IconSize = 30;
-            btnUsuarios.Location = new Point(0, 170);
+            btnUsuarios.Location = new Point(0, 173);
             btnUsuarios.Margin = new Padding(0, 10, 0, 10);
             btnUsuarios.Name = "btnUsuarios";
             btnUsuarios.Size = new Size(284, 45);
@@ -209,15 +222,17 @@
             // 
             btnLibros.AutoSize = true;
             btnLibros.BackColor = Color.White;
+            btnLibros.Cursor = Cursors.Hand;
             btnLibros.DialogResult = DialogResult.Retry;
             btnLibros.Dock = DockStyle.Top;
             btnLibros.FlatAppearance.BorderSize = 0;
+            btnLibros.FlatStyle = FlatStyle.Flat;
             btnLibros.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLibros.IconChar = FontAwesome.Sharp.IconChar.Book;
             btnLibros.IconColor = Color.Black;
             btnLibros.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnLibros.IconSize = 30;
-            btnLibros.Location = new Point(0, 125);
+            btnLibros.Location = new Point(0, 128);
             btnLibros.Margin = new Padding(0, 10, 0, 10);
             btnLibros.Name = "btnLibros";
             btnLibros.Size = new Size(284, 45);
@@ -232,9 +247,11 @@
             // 
             btnInicio.AutoSize = true;
             btnInicio.BackColor = Color.White;
+            btnInicio.Cursor = Cursors.Hand;
             btnInicio.DialogResult = DialogResult.Retry;
             btnInicio.Dock = DockStyle.Top;
             btnInicio.FlatAppearance.BorderSize = 0;
+            btnInicio.FlatStyle = FlatStyle.Flat;
             btnInicio.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnInicio.IconChar = FontAwesome.Sharp.IconChar.House;
             btnInicio.IconColor = Color.Black;
@@ -243,10 +260,9 @@
             btnInicio.Location = new Point(0, 80);
             btnInicio.Margin = new Padding(0, 10, 0, 10);
             btnInicio.Name = "btnInicio";
-            btnInicio.Size = new Size(284, 45);
+            btnInicio.Size = new Size(284, 48);
             btnInicio.TabIndex = 1;
             btnInicio.Text = "Inicio";
-            btnInicio.TextAlign = ContentAlignment.MiddleLeft;
             btnInicio.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnInicio.UseVisualStyleBackColor = false;
             btnInicio.Click += btnInicio_Click;
