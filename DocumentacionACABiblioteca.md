@@ -161,8 +161,8 @@ Se definieron entidades como `Libro`, `Autor`, `Categoria`, `Usuario` y `Prestam
 
 # 7. MODELO ENTIDAD-RELACIÓN
 
-![Diagrama Relacional SQL Server]()
-![Tabla de Libros SQL Server]()
+![GitHub](https://github.com/norbertomolano-maker/AcaBiblioteca/blob/main/Temp_Imagenes/SQLServer/1.png?raw=true)
+![GitHub](https://github.com/norbertomolano-maker/AcaBiblioteca/blob/main/Temp_Imagenes/SQLServer/2.png?raw=true)
 
 Estructura relacional en SQL Server enlazando tablas de Autores, Categorías, Libros, Usuarios y Préstamos mediante llaves primarias y foráneas que garantizan integridad referencial.
 
@@ -181,6 +181,7 @@ Estructura relacional en SQL Server enlazando tablas de Autores, Categorías, Li
 
 # 9. ARQUITECTURA DEL SISTEMA
 
+![GitHub](https://github.com/VeronicaRep/AcaBiblioteca/blob/main/Diagramas%20Documentaci%C3%B3n%20Biblioteca/Arquitectura%20Del%20Sistema%20%20-%20Biblioteca%20.png?raw=true)
 
 El proyecto se organiza en una arquitectura por capas:
 
