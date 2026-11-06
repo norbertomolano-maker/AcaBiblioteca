@@ -120,6 +120,8 @@ El sistema permite gestionar libros, autores, categorías, usuarios y controlar 
 
 # 4. ANÁLISIS DE REQUERIMIENTOS
 
+![Análisis de Requerimientos](Diagramas%20Documentaci%C3%B3n%20Biblioteca/An%C3%A1lisis%20De%20Requerimientos%20-%20Biblioteca.png)
+
 ## 4.1 Actores del sistema
 
 | Actor | Descripción | 
@@ -147,20 +149,26 @@ El sistema permite gestionar libros, autores, categorías, usuarios y controlar 
 
 # 5. CASOS DE USO
 
+![Diagrama de Casos de Uso](Diagramas%20Documentaci%C3%B3n%20Biblioteca/Diagrama%20De%20Casos%20De%20Uso%20-%20Biblioteca%20.png)
+
 El administrador interactúa con la interfaz de Windows Forms cargando submódulos dentro del panel principal contenedor (`pnlContenido`).
 
 # 6. DIAGRAMA DE CLASES Y POO
+
+![Diagrama de Clases](Diagramas%20Documentaci%C3%B3n%20Biblioteca/Diagrama%20De%20Clases%20-%20Biblioteca.png)
 
 Se definieron entidades como `Libro`, `Autor`, `Categoria`, `Usuario` y `Prestamo` con propiedades encapsuladas, métodos de acceso y estructuras modulares para separar la capa de datos de la interfaz de usuario.
 
 # 7. MODELO ENTIDAD-RELACIÓN
 
-![Diagrama Relacional SQL Server](IMAGENES/SQLServer/2.png)
-![Tabla de Libros SQL Server](IMAGENES/SQLServer/3.png)
+![Diagrama Relacional SQL Server]()
+![Tabla de Libros SQL Server]()
 
 Estructura relacional en SQL Server enlazando tablas de Autores, Categorías, Libros, Usuarios y Préstamos mediante llaves primarias y foráneas que garantizan integridad referencial.
 
 # 8. DICCIONARIO DE DATOS
+
+![Diccionario de Datos](Diagramas%20Documentaci%C3%B3n%20Biblioteca/Diccionario%20De%20Datos%20-%20Biblioteca%20.png)
 
 | Campo | Tipo de dato | Clave | Nulo | Descripción | 
 | ----- | ----- | ----- | ----- | ----- | 
@@ -172,6 +180,7 @@ Estructura relacional en SQL Server enlazando tablas de Autores, Categorías, Li
 | cantidad | INT | \- | No | Stock / Existencias disponibles. | 
 
 # 9. ARQUITECTURA DEL SISTEMA
+
 
 El proyecto se organiza en una arquitectura por capas:
 
@@ -238,3 +247,6 @@ En esta sección se presentan las evidencias de la interfaz gráfica desarrollad
 * Microsoft. (2026). *Windows Forms App (.NET Framework) Documentation*. Microsoft Learn.
 
 * Corporación Unificada Nacional de Educación Superior (CUN). (2026). *Guía de desarrollo para ACA - Programación Avanzada*.
+
+
+[def]: imagenes/diagramas/analisis_requerimientos.png
