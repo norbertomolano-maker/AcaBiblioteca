@@ -161,6 +161,9 @@ Se definieron entidades como `Libro`, `Autor`, `Categoria`, `Usuario` y `Prestam
 
 # 7. MODELO ENTIDAD-RELACIÓN
 
+![GitHub](https://github.com/norbertomolano-maker/AcaBiblioteca/blob/main/Temp_Imagenes/Analisis_BD_Biblioteca/Analisis_BD_Biblioteca.png?raw=true)
+
+
 ![GitHub](https://github.com/norbertomolano-maker/AcaBiblioteca/blob/main/Temp_Imagenes/SQLServer/1.png?raw=true)
 ![GitHub](https://github.com/norbertomolano-maker/AcaBiblioteca/blob/main/Temp_Imagenes/SQLServer/2.png?raw=true)
 
