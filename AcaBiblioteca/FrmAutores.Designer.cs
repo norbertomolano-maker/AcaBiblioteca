@@ -72,6 +72,7 @@
             // 
             // pnlDatos
             // 
+            pnlDatos.BackColor = SystemColors.Control;
             pnlDatos.Controls.Add(txtApellido);
             pnlDatos.Controls.Add(txtNombre);
             pnlDatos.Controls.Add(lblApellido);

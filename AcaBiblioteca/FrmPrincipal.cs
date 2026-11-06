@@ -74,7 +74,7 @@ namespace AcaBiblioteca
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-            Abrirformulario(new FrmPrestamos());
+            Abrirformulario(new FrmReportes());
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
